@@ -1,0 +1,10 @@
+/* Bintenna Viyamana (බිංතැන්න වියමන) — woven-mat COLR colour font
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Viyamana";src:url("BintennaViyamana-Regular.woff2") format("woff2"),url("BintennaViyamana-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-viyamana{font-family:"Bintenna Viyamana","Noto Serif Sinhala",serif}
+/* palettes: 0 Rathu-Kaha (default) · 1 Kola-Pan · 2 Swabhawika · 3 Dam-Kaha · 4 Kalu-Alu */
+@font-palette-values --kolapan{font-family:"Bintenna Viyamana";base-palette:1}
+@font-palette-values --swabhawika{font-family:"Bintenna Viyamana";base-palette:2}
+@font-palette-values --damkaha{font-family:"Bintenna Viyamana";base-palette:3}
+@font-palette-values --kalualu{font-family:"Bintenna Viyamana";base-palette:4}
+.kolapan{font-palette:--kolapan}.swabhawika{font-palette:--swabhawika}.damkaha{font-palette:--damkaha}.kalualu{font-palette:--kalualu}

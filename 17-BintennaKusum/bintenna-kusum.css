@@ -1,0 +1,4 @@
+/* Bintenna Kusum (බිංතැන්න කුසුම්) — created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Kusum";src:url("BintennaKusum-Regular.woff2") format("woff2"),url("BintennaKusum-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-kusum{font-family:"Bintenna Kusum","Noto Serif Sinhala",serif}
+.bintenna-kusum-swash{font-feature-settings:"ss01" 1}  /* automatic word swashes */

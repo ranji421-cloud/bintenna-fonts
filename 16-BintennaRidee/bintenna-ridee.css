@@ -1,0 +1,4 @@
+/* Bintenna Ridee (බිංතැන්න රිදී) — created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Ridee";src:url("BintennaRidee-Regular.woff2") format("woff2"),url("BintennaRidee-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-ridee{font-family:"Bintenna Ridee","Noto Serif Sinhala",serif}
+.bintenna-ridee-swash{font-feature-settings:"ss01" 1}  /* automatic word swashes */

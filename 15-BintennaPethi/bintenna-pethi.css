@@ -1,0 +1,4 @@
+/* Bintenna Pethi (බිංතැන්න පෙති) — created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Pethi";src:url("BintennaPethi-Regular.woff2") format("woff2"),url("BintennaPethi-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-pethi{font-family:"Bintenna Pethi","Noto Serif Sinhala",serif}
+.bintenna-pethi-swash{font-feature-settings:"ss02" 1}  /* automatic word swashes */

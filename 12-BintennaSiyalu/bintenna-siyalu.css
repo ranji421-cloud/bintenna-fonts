@@ -1,0 +1,12 @@
+/* Bintenna Siyalu (බිංතැන්න සියලු) — 3-axis variable font: wght 100–900, wdth 62.5–100, STON 0–100
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{
+  font-family:"Bintenna Siyalu";
+  src:url("BintennaSiyalu-VF.woff2") format("woff2-variations"),url("BintennaSiyalu-VF.woff2") format("woff2");
+  font-weight:100 900; font-stretch:62.5% 100%; font-display:swap;
+}
+.bintenna-siyalu{font-family:"Bintenna Siyalu","Noto Serif Sinhala",serif}
+/* weight and width use normal CSS; the Stone axis uses font-variation-settings */
+.siyalu-gal{font-variation-settings:"STON" 100}
+.siyalu-gal-50{font-variation-settings:"STON" 50}
+/* example: h1{font-family:"Bintenna Siyalu";font-weight:850;font-stretch:75%;font-variation-settings:"STON" 100} */

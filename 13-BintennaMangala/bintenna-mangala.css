@@ -1,0 +1,6 @@
+/* Bintenna Mangala (බිංතැන්න මංගල) — pointed-pen wedding script
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Mangala";src:url("BintennaMangala-Regular.woff2") format("woff2"),url("BintennaMangala-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-mangala{font-family:"Bintenna Mangala","Noto Serif Sinhala",serif}
+/* automatic swashes at the start and end of every word (put a space before and after the words) */
+.mangala-swash{font-feature-settings:"ss01" 1}
