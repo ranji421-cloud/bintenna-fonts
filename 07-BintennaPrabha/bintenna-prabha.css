@@ -1,0 +1,10 @@
+/* Bintenna Prabha (බිංතැන්න ප්‍රභා) — golden radiant COLR colour font honouring Mahiyangana
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Prabha";src:url("BintennaPrabha-Regular.woff2") format("woff2"),url("BintennaPrabha-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-prabha{font-family:"Bintenna Prabha","Noto Serif Sinhala",serif}
+/* palettes: 0 Ran/gold (default) · 1 Duruthu Sanda (dark bg) · 2 Prabhaswara/saffron · 3 Sudu/white (dark bg) · 4 Kalu/plain */
+@font-palette-values --duruthu{font-family:"Bintenna Prabha";base-palette:1}
+@font-palette-values --prabhaswara{font-family:"Bintenna Prabha";base-palette:2}
+@font-palette-values --sudu{font-family:"Bintenna Prabha";base-palette:3}
+@font-palette-values --kalu{font-family:"Bintenna Prabha";base-palette:4}
+.duruthu{font-palette:--duruthu}.prabhaswara{font-palette:--prabhaswara}.sudu{font-palette:--sudu}.kalu{font-palette:--kalu}

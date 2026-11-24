@@ -1,0 +1,10 @@
+/* Bintenna Sithuwam (බිංතැන්න සිතුවම්) — red-ochre & white-ash rock-painting COLR colour font
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Sithuwam";src:url("BintennaSithuwam-Regular.woff2") format("woff2"),url("BintennaSithuwam-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-sithuwam{font-family:"Bintenna Sithuwam","Noto Sans Sinhala",sans-serif}
+/* palettes: 0 Rathu-Sudu (default) · 1 Thada Rathu · 2 Kaha Meti · 3 Sudu-Rathu (dark backgrounds) · 4 Kalu-Sudu */
+@font-palette-values --thadarathu{font-family:"Bintenna Sithuwam";base-palette:1}
+@font-palette-values --kahameti{font-family:"Bintenna Sithuwam";base-palette:2}
+@font-palette-values --sudurathu{font-family:"Bintenna Sithuwam";base-palette:3}
+@font-palette-values --kalusudu{font-family:"Bintenna Sithuwam";base-palette:4}
+.thadarathu{font-palette:--thadarathu}.kahameti{font-palette:--kahameti}.sudurathu{font-palette:--sudurathu}.kalusudu{font-palette:--kalusudu}

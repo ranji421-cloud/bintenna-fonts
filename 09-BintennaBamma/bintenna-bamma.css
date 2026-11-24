@@ -1,0 +1,10 @@
+/* Bintenna Bamma (බිංතැන්න බැම්ම) — Sorabora tank-bund stone masonry COLR colour font
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Bamma";src:url("BintennaBamma-Regular.woff2") format("woff2"),url("BintennaBamma-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-bamma{font-family:"Bintenna Bamma","Noto Sans Sinhala",sans-serif}
+/* palettes: 0 Kalugal/granite (default) · 1 Rathu Gal/laterite · 2 Pasi Gal/mossy · 3 Sudu Gal (dark bg) · 4 Kalu */
+@font-palette-values --rathugal{font-family:"Bintenna Bamma";base-palette:1}
+@font-palette-values --pasigal{font-family:"Bintenna Bamma";base-palette:2}
+@font-palette-values --sudugal{font-family:"Bintenna Bamma";base-palette:3}
+@font-palette-values --kalu{font-family:"Bintenna Bamma";base-palette:4}
+.rathugal{font-palette:--rathugal}.pasigal{font-palette:--pasigal}.sudugal{font-palette:--sudugal}.kalu{font-palette:--kalu}

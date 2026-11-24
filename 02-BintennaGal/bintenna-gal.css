@@ -1,0 +1,5 @@
+/* Bintenna Gal (බිංතැන්න ගල්) — pecked rock-engraving Sinhala Unicode font with pictographs
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Gal";src:url("BintennaGal-Regular.woff2") format("woff2"),url("BintennaGal-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-gal{font-family:"Bintenna Gal","Noto Sans Sinhala",sans-serif}
+.granite{background:#78706a;color:#28221c}

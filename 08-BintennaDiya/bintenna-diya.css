@@ -1,0 +1,10 @@
+/* Bintenna Diya (බිංතැන්න දිය) — Mahaweli river-current COLR colour font
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Diya";src:url("BintennaDiya-Regular.woff2") format("woff2"),url("BintennaDiya-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-diya{font-family:"Bintenna Diya","Noto Sans Sinhala",sans-serif}
+/* palettes: 0 Mahaweli (default) · 1 Wila · 2 Ira Basa · 3 Sanda Eliya (dark bg) · 4 Kalu Diya */
+@font-palette-values --wila{font-family:"Bintenna Diya";base-palette:1}
+@font-palette-values --irabasa{font-family:"Bintenna Diya";base-palette:2}
+@font-palette-values --sandaeliya{font-family:"Bintenna Diya";base-palette:3}
+@font-palette-values --kaludiya{font-family:"Bintenna Diya";base-palette:4}
+.wila{font-palette:--wila}.irabasa{font-palette:--irabasa}.sandaeliya{font-palette:--sandaeliya}.kaludiya{font-palette:--kaludiya}

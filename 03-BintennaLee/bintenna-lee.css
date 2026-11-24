@@ -1,0 +1,10 @@
+/* Bintenna Lee (බිංතැන්න ලී) — carved-wood COLR colour font, Sinhala Unicode
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Lee";src:url("BintennaLee-Regular.woff2") format("woff2"),url("BintennaLee-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-lee{font-family:"Bintenna Lee","Noto Sans Sinhala",sans-serif}
+/* wood palettes: 0 Thekka/teak (default) · 1 Kaluwara/ebony · 2 Kos/jak · 3 Gal/stone · 4 Ran/gold */
+@font-palette-values --kaluwara{font-family:"Bintenna Lee";base-palette:1}
+@font-palette-values --kos{font-family:"Bintenna Lee";base-palette:2}
+@font-palette-values --gal{font-family:"Bintenna Lee";base-palette:3}
+@font-palette-values --ran{font-family:"Bintenna Lee";base-palette:4}
+.kaluwara{font-palette:--kaluwara}.kos{font-palette:--kos}.gal{font-palette:--gal}.ran{font-palette:--ran}

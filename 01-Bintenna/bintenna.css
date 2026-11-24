@@ -1,0 +1,5 @@
+/* Bintenna (බිංතැන්න) — ash-on-stone Sinhala Unicode font with rock-art pictographs
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna";src:url("Bintenna-Regular.woff2") format("woff2"),url("Bintenna-Regular.ttf") format("truetype");font-display:swap}
+.bintenna{font-family:"Bintenna","Noto Sans Sinhala",sans-serif}
+.stone{background:#3a2e26;color:#ece4d6}

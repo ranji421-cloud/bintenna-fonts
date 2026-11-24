@@ -1,0 +1,10 @@
+/* Bintenna Wana (බිංතැන්න වන) — forest-vine COLR colour font
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Wana";src:url("BintennaWana-Regular.woff2") format("woff2"),url("BintennaWana-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-wana{font-family:"Bintenna Wana","Noto Sans Sinhala",sans-serif}
+/* palettes: 0 Wana (default) · 1 Pala Dalu · 2 Rathu Dalu · 3 Sanda (dark bg) · 4 Kalu */
+@font-palette-values --paladalu{font-family:"Bintenna Wana";base-palette:1}
+@font-palette-values --rathudalu{font-family:"Bintenna Wana";base-palette:2}
+@font-palette-values --sanda{font-family:"Bintenna Wana";base-palette:3}
+@font-palette-values --kalu{font-family:"Bintenna Wana";base-palette:4}
+.paladalu{font-palette:--paladalu}.rathudalu{font-palette:--rathudalu}.sanda{font-palette:--sanda}.kalu{font-palette:--kalu}

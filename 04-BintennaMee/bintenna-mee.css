@@ -1,0 +1,10 @@
+/* Bintenna Mee (බිංතැන්න මී) — honeycomb COLR colour font, Sinhala Unicode
+   Created by media personality Ranjith Karunaweera (මාධ්‍යවේදී රංජිත් කරුණාවීර) */
+@font-face{font-family:"Bintenna Mee";src:url("BintennaMee-Regular.woff2") format("woff2"),url("BintennaMee-Regular.ttf") format("truetype");font-display:swap}
+.bintenna-mee{font-family:"Bintenna Mee","Noto Sans Sinhala",sans-serif}
+/* palettes: 0 Mee/wild honey (default) · 1 Kalu Mee/forest honey · 2 Iti/beeswax · 3 Kele/forest · 4 Kalu-Sudu */
+@font-palette-values --kalumee{font-family:"Bintenna Mee";base-palette:1}
+@font-palette-values --iti{font-family:"Bintenna Mee";base-palette:2}
+@font-palette-values --kele{font-family:"Bintenna Mee";base-palette:3}
+@font-palette-values --kalusudu{font-family:"Bintenna Mee";base-palette:4}
+.kalumee{font-palette:--kalumee}.iti{font-palette:--iti}.kele{font-palette:--kele}.kalusudu{font-palette:--kalusudu}
